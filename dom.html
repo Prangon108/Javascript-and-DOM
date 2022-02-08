@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Blog website</h1>
+
+    </header>
+    <main>
+        <section>
+            <article class="checkProperty">
+                <h3>My awesome blog -1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius laboriosam sint ipsam vitae recusandae culpa labore doloremque. Ut reprehenderit eligendi modi ipsum adipisci odit reiciendis ab, autem sunt laborum?</p>
+            </article>
+            <article class="checkProperty">
+                <h3>My awesome blog -2</h3>
+                <p>Esse porro et cupiditate in delectus minima. Necessitatibus voluptates nesciunt mollitia, vitae placeat eos modi perferendis neque maiores ex dolore ut adipisci minima numquam qui non esse veritatis porro similique.</p>
+            </article>
+            <article class="checkProperty">
+                <h3 id="koka">My awesome blog -3</h3>
+                <p>Tenetur ut error explica
+                    constbo ullam sunt excepturi maiores veritatis consectetur repudiandae sequi porro beatae a, officiis obcaecati voluptatum illum itaque dolores debitis nihil cupiditate facilis maxime eveniet fuga dolore! Consequuntur.</p>
+            </article>
+        </section>
+    </main>
+    <script>
+        const propertyCheck = document.getElementsByClassName('checkProperty');
+        for(const checkProperty of propertyCheck ){
+            checkProperty.style.border='5px solid red';
+            checkProperty.style.margin='5px';
+            checkProperty.style.padding='5px';
+            checkProperty.style.borderRadius='10px';
+
+        }
+        // console.log("propertyCheck");
+        // const blogDetails = document.getElementsByTagName('p');
+        // for(const p of blogDetails ){
+        // console.log(p.innerText) ;
+        // }
+        // const blogHeading = document.getElementById("koka");
+        // console.log(blogHeading);
+    </script>
+</body>
+</html>
